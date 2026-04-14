@@ -39,6 +39,11 @@
                 </a>
             @endif
 
+            <a href="{{ route('google.login') }}" class="inline-flex items-center px-4 py-2 bg-white border border-gray-300 rounded-md font-semibold text-xs text-gray-700 uppercase tracking-widest shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:opacity-25 transition ease-in-out duration-150">
+                <img src="https://www.gstatic.com/images/branding/product/1x/gsa_512dp.png" class="h-4 w-4 mr-2">
+                    {{ __('Login with Google') }}
+            </a>
+
             <x-primary-button class="ms-3">
                 {{ __('Log in') }}
             </x-primary-button>
